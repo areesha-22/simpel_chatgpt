@@ -29,7 +29,7 @@ async def main():
         model=model
     )
 
-    result = await Runner.run(assistant, "Tell me something interesting about Pakistan",run_config=config)
+    result = await Runner.run(assistant, "tell me about how AI is important?",run_config=config)
     print(result.final_output)
 
 if __name__ == "__main__":
